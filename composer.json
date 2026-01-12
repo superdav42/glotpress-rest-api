@@ -1,0 +1,34 @@
+{
+	"name": "superdav42/glotpress-rest-api",
+	"description": "Adds REST API endpoints for GlotPress project management",
+	"type": "wordpress-plugin",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "David Stone",
+			"homepage": "https://developer.developer.developer.developer"
+		}
+	],
+	"homepage": "https://github.com/superdav42/glotpress-rest-api",
+	"support": {
+		"issues": "https://github.com/superdav42/glotpress-rest-api/issues",
+		"source": "https://github.com/superdav42/glotpress-rest-api"
+	},
+	"require": {
+		"php": ">=7.4"
+	},
+	"require-dev": {
+		"wp-coding-standards/wpcs": "^3.0",
+		"phpcompatibility/phpcompatibility-wp": "^2.1",
+		"dealerdirect/phpcodesniffer-composer-installer": "^1.0"
+	},
+	"scripts": {
+		"phpcs": "phpcs",
+		"phpcbf": "phpcbf"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	}
+}
