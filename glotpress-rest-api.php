@@ -2,11 +2,15 @@
 /**
  * Plugin Name: GlotPress REST API Extension
  * Description: Adds REST API endpoints for GlotPress project management
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Multisite Ultimate
  *
  * Install this file in wp-content/mu-plugins/ on your GlotPress/Traduttore server.
  */
+
+if ( ! defined( 'GLOTPRESS_REST_API_VERSION' ) ) {
+	define( 'GLOTPRESS_REST_API_VERSION', '1.0.1' );
+}
 
 if (!defined('ABSPATH')) {
 	exit;
